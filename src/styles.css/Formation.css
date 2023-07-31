@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Estilos para celulares com largura de tela menor que 576px */
+@media (max-width: 575.98px) {
+    /* Estilos para dispositivos móveis */
+    body {
+        background-color: rgb(248, 248, 255);
+    }
+    
+    
+    .card-education,
+    .card-experience {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      color: white;
+      font-family: 'Lato', sans-serif;
+      border-radius: 20px;
+    }
+    
+    .card-education span,
+    .card-experience span {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .card-education div,
+    .card-experience div {
+      text-align: center;
+      font-size: 16px;
+    }
+    
+    .title-education {
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 30px;
+    }
+    
+    .title-experience {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 30px;
+    }
+    
+    .card-education-date,
+    .card-experience-date {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .card-education-date span,
+    .card-experience-date span {
+      font-weight: bold;
+    }
+    
+    .card-education-info,
+    .card-experience-info {
+      margin-left: 10px;
+    }
+  }
+  
+  /* Estilos para dispositivos com tela maior que 576px e menor que 768px */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Estilos para dispositivos móveis e tablets em modo retrato */
+    body {
+        background-color: rgb(248, 248, 255);
+    }
+    
+    
+    .card-education,
+    .card-experience {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      color: white;
+      font-family: 'Lato', sans-serif;
+      border-radius: 20px;
+    }
+    
+    .card-education span,
+    .card-experience span {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .card-education div,
+    .card-experience div {
+      text-align: center;
+      font-size: 16px;
+    }
+    
+    .title-education {
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 30px;
+    }
+    
+    .title-experience {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 30px;
+    }
+    
+    .card-education-date,
+    .card-experience-date {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .card-education-date span,
+    .card-experience-date span {
+      font-weight: bold;
+    }
+    
+    .card-education-info,
+    .card-experience-info {
+      margin-left: 10px;
+    }
+  }
+  
+  /* Estilos para dispositivos com tela maior que 768px e menor que 992px */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Estilos para tablets em modo paisagem e dispositivos móveis com tela maior */
+    body {
+        background-color: rgb(248, 248, 255);
+    }
+    
+    
+    .card-education,
+    .card-experience {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      color: white;
+      font-family: 'Lato', sans-serif;
+      border-radius: 20px;
+    }
+    
+    .card-education span,
+    .card-experience span {
+      font-weight: bold;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    
+    .card-education div,
+    .card-experience div {
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    .title-education {
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 40px;
+    }
+    
+    .title-experience {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 40px;
+    }
+    
+    .card-education-date,
+    .card-experience-date {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .card-education-date span,
+    .card-experience-date span {
+      font-weight: bold;
+    }
+    
+    .card-education-info,
+    .card-experience-info {
+      margin-left: 10px;
+    }
+  }
+  
+  /* Estilos para dispositivos com tela maior que 992px e menor que 1200px */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Estilos para dispositivos maiores, como laptops */
+    body {
+        background-color: rgb(248, 248, 255);
+    }
+    
+    
+    .card-education,
+    .card-experience {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      color: white;
+      font-family: 'Lato', sans-serif;
+      border-radius: 20px;
+    }
+    
+    .card-education span,
+    .card-experience span {
+      font-weight: bold;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    
+    .card-education div,
+    .card-experience div {
+      text-align: center;
+      font-size: 22px;
+    }
+    
+    .title-education {
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 45px;
+    }
+    
+    .title-experience {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 45px;
+    }
+    
+    .card-education-date,
+    .card-experience-date {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .card-education-date span,
+    .card-experience-date span {
+      font-weight: bold;
+    }
+    
+    .card-education-info,
+    .card-experience-info {
+      margin-left: 10px;
+    }
+  }
+  
+  /* Estilos para dispositivos com tela maior que 1200px */
+  @media (min-width: 1200px) {
+    /* Estilos para dispositivos maiores, como desktops */
+    body {
+        background-color: rgb(248, 248, 255);
+    }
+    
+    
+    .card-education,
+    .card-experience {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      color: white;
+      font-family: 'Lato', sans-serif;
+    }
+    
+    .card-education span,
+    .card-experience span {
+      font-weight: bold;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    
+    .card-education div,
+    .card-experience div {
+      text-align: center;
+      font-size: 22px;
+    }
+    
+    .title-education {
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 38px;
+    }
+    
+    .title-experience {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          font-size: 38px;
+    }
+    
+    .card-education-date,
+    .card-experience-date {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .card-education-date span,
+    .card-experience-date span {
+      font-weight: bold;
+    }
+    
+    .card-education-info,
+    .card-experience-info {
+      margin-left: 10px;
+    }
+  }
+  

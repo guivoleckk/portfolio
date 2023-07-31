@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Estilos para celulares com largura de tela menor que 576px */
+@media (max-width: 575.98px) {
+    /* Estilos para dispositivos móveis */
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .contact-info {
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+          gap: 12px;
+          font-family: 'Lato', sans-serif;
+          font-size: 18px;
+          margin-bottom: 20px;
+      }
+      
+      .contact-info > div svg {
+          font-size: 20px;
+          color: rgb(255, 146, 3);
+      }
+      
+      .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+      
+      .social-media > a svg {
+        color: rgb(255, 146, 3);
+      }
+      
+      .assignature {
+          display: flex;
+          justify-content: center;
+          background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          padding: 10px;
+          color: white;
+          font-size: 18px;
+          font-family: 'Lato', sans-serif;
+      }
+  }
+  
+  /* Estilos para dispositivos com tela maior que 576px e menor que 768px */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Estilos para dispositivos móveis e tablets em modo retrato */
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .contact-info {
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+          gap: 12px;
+          font-family: 'Lato', sans-serif;
+          font-size: 18px;
+          margin-bottom: 20px;
+      }
+      
+      .contact-info > div svg {
+          font-size: 20px;
+          color: rgb(255, 146, 3);
+      }
+      
+      .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+      
+      .social-media > a svg {
+        color: rgb(255, 146, 3);
+      }
+      
+      .assignature {
+          display: flex;
+          justify-content: center;
+          background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          padding: 10px;
+          color: white;
+          font-size: 18px;
+          font-family: 'Lato', sans-serif;
+      }
+  }
+  
+  /* Estilos para dispositivos com tela maior que 768px e menor que 992px */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Estilos para tablets em modo paisagem e dispositivos móveis com tela maior */
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .contact-info {
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+          gap: 12px;
+          font-family: 'Lato', sans-serif;
+          font-size: 18px;
+          margin-bottom: 20px;
+      }
+      
+      .contact-info > div svg {
+          font-size: 26px;
+          color: rgb(255, 146, 3);
+      }
+      
+      .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+      
+      .social-media > a svg {
+        color: rgb(255, 146, 3);
+      }
+      
+      .assignature {
+          display: flex;
+          justify-content: center;
+          background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          padding: 10px;
+          color: white;
+          font-size: 20px;
+          font-family: 'Lato', sans-serif;
+      }
+  }
+  
+  /* Estilos para dispositivos com tela maior que 992px e menor que 1200px */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Estilos para dispositivos maiores, como laptops */
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .contact-info {
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+          gap: 12px;
+          font-family: 'Lato', sans-serif;
+          font-size: 20px;
+          margin-bottom: 20px;
+      }
+      
+      .contact-info > div svg {
+          font-size: 26px;
+          color: rgb(255, 146, 3);
+      }
+      
+      .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+      
+      .social-media > a svg {
+        color: rgb(255, 146, 3);
+      }
+      
+      .assignature {
+          display: flex;
+          justify-content: center;
+          background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          padding: 10px;
+          color: white;
+          font-size: 20px;
+          font-family: 'Lato', sans-serif;
+      }
+  }
+  
+  /* Estilos para dispositivos com tela maior que 1200px */
+  @media (min-width: 1200px) {
+    /* Estilos para dispositivos maiores, como desktops */
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .contact-info {
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+          gap: 12px;
+          font-family: 'Lato', sans-serif;
+          font-size: 22px;
+          margin-bottom: 20px;
+      }
+      
+      .contact-info > div svg {
+          font-size: 30px;
+          color: rgb(255, 146, 3);
+      }
+      
+      .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+      
+      .social-media > a svg {
+        color: rgb(255, 146, 3);
+      }
+      
+      .assignature {
+          display: flex;
+          justify-content: center;
+          background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+          padding: 10px;
+          color: white;
+          font-size: 20px;
+          font-family: 'Lato', sans-serif;
+      }
+  }
+  

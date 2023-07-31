@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86558f75.css",
+    "main.js": "/static/js/main.564ae7ea.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pixelArt.png": "/static/media/pixelArt.89a566a8a0b0c8d4e209.png",
+    "static/media/starWars.png": "/static/media/starWars.15a6c2462286313be525.png",
+    "static/media/rickMorty.png": "/static/media/rickMorty.a68925a1957e908a584e.png",
+    "static/media/carteiraDespesas.png": "/static/media/carteiraDespesas.ad98761bcec18c8c2851.png",
+    "static/media/guiMusics.png": "/static/media/guiMusics.54c1d8feb78fda826850.png",
+    "static/media/shoppingCart.png": "/static/media/shoppingCart.f84ff7a8df8780a44331.png",
+    "static/media/casaCambio.png": "/static/media/casaCambio.814842b8a0ea8ce75c8f.png",
+    "static/media/guilherme-photo.jpeg": "/static/media/guilherme-photo.d869ab9f69e30095c88b.jpeg",
+    "static/media/cepSearch.png": "/static/media/cepSearch.a86e15edf5a900ff98c3.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.86558f75.css.map": "/static/css/main.86558f75.css.map",
+    "main.564ae7ea.js.map": "/static/js/main.564ae7ea.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86558f75.css",
+    "static/js/main.564ae7ea.js"
+  ]
+}
